@@ -1,0 +1,48 @@
+Hunter
+
+# Hunting (Core, Tier 1, M+C)
+- Select a Favored Enemy. You gain +2 to Knowledge, Perception, Bluff, Evaluate and Survival against those creatures.
+You also gain +1 to attack and +2 to damage against such creatures.
+- Once per round you can add half your cunning bonus to your attack bonus. Decide this before making the roll 
+- After each short rest you can select one Talent that costs STM to use. This Talent ignores 2STM of cost per round
+
+* Second Favored Enemy (Talent, Tier 2, M or C)
+Prereq.: Hunting
+- Select another favored enemy and gain the bonusses of Hunting against those creatures too.
+Add the bonusses again for one of your favored enemies
+
+# Tactical Hunter (Core, Tier 2, M+C)
+Prereq.: Hunting
+- As a Standard Action, give all allies within 30ft half your favored enemy bonus against one favored enemy type 
+for a number of rounds equal to your Tier
+
+# Quarry (Core, Tier 3, M+C)
+Prereq.: Hunting
+- As Quarry in Pathfinder
+- faster Tracking
+
+* Specialized Tactics (Talent, Tier 3, C)
+Prereq.: Tactical Hunter
+- After each short rest you can select one or more Talents that costs STM to use. 
+You can either choose one Talent that then costs 5STM less per round or two Talents that each then cost 3STM less per round
+
+* Third Favored Enemy (Talent, Tier 3, M or C)
+Prereq.: Second Favored Enemy
+- Select another favored enemy and gain the bonusses of Hunting against those creatures too.
+Add the bonusses again for one of your favored enemies
+
+* Fourth Favored Enemy (Talent, Tier 4, M or C)
+Prereq.: Third Favored Enemy
+- Select another favored enemy and gain the bonusses of Hunting against those creatures too.
+Add the bonusses again for one of your favored enemies
+
+* Improved Quarry (Talent, Tier 4, M)
+Prereq.: Third Favored Enemy
+- As Imp. Quarry in Pathfinder
+- even faster tracking
+
+* Master Hunter (Talent, Tier 5, M)
+Prereq.: Fourth Favored Enemy
+- Can kill favored enemy with one attack once per short rest.
+If you hit, must make CON save against 10 + Attack Bonus against it
+

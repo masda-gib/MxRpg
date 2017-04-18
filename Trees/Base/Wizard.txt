@@ -1,0 +1,47 @@
+Wizard
+
+# Wizardry (Core, Tier 1, A+A)
+- Spellcaster: Arcane, Full, Level = Arcane Level (max. Chara Level), Bonus = Arcane Bonus, List = Wizard/Sorcerer
+- You have to prepare spells after a long rest. The number you can prepare is INT + highest Arcane Spell Level Talent
+- You only know level 0 spells according to the spell table
+- You learn 3 level 1 spells
+- For each Arcane Token gain from after this, after selecting your Core or Talent, you learn a spell 
+up to a level you can cast but minimum Level 1
+- Each time you gain a Spell Level Talent, you also learn a spell of a level lower than the talent provides
+- You gain Scribe Scroll as a bonus Talent
+
+* (9 Spell Level Talents)
+
+# School Focus (Core, Tier 1, A+A)
+Prereq.: Wizardry, Arcane Level 1 Spells
+- Select a school of magic and 2 forbidden schools. Spells of forbidden schools count as one level higher
+for costs and casting
+- Gain First School Powers
+- Gain 1 Spell Slot per day for each level you can cast. This slot can only be used to cast a spell of that school
+
+* Deep Studying (Talent, Tier 2, A)
+Prereq.: Wizardry
+- Add your Arcane Bonus to the number of spells you can prepare
+- after each short rest you can regain used spell slots up to level 1 + Tier. You regain a number of spell Levels equal to
+half your Arcane Bonus
+
+* School Power (Talent, Tier 3, A)
+Prereq.: School Focus
+- Gain Higher Power of your school
+
+* Arcane Discovery I (Talent, Tier2, A)
+Prereq.: Wizardry
+- Learn an Arcane Discovery of Tier 2
+
+* Arcane Discovery II (Talent, Tier3, A)
+Prereq.: Arcane Discovery I
+- Learn an Arcane Discovery of Tier 3 or lower
+
+* Arcane Discovery III (Talent, Tier4, A)
+Prereq.: Arcane Discovery II
+- Learn an Arcane Discovery of Tier 4 or lower
+
+* Arcane Discovery IV (Talent, Tier5, A)
+Prereq.: Arcane Discovery III
+- Learn an Arcane Discovery of Tier 5 or lower
+

@@ -1,0 +1,48 @@
+Rogue
+
+# Rogue's Sneaking (Core, Tier 1, C+C)
+- Once per round after hit against unaware or flanked opponent can declare sneak attack
+- sneak attack deals your Cunning Level direct HP damage as precission damage.
+- Gain 1 Inspiration
+
+# Talented Rogue (Core, Tier 1, C+C)
+Prereq.: Rogue's Sneaking
+- Gain a Rogue Talent
+- Gain 1 Inspiration
+
+* Improved Sneak Attack (Talent, Tier 1, C)
+Prereq.: Rogue's Sneaking, Cunning Level 3
+- Deal a 1d6 normal damage per 3 Cunning Levels on a Sneak Attack
+
+* Extra Rogue Talent I (Talent, Tier 2, C)
+Prereq.: Rogue's Sneaking
+- Gain a Rogue Talent
+
+* Greater Sneak Attack (Talent, Tier 2, C)
+- Add half your Cunning Bonus to every primary attack roll against an unaware or flanked opponent
+- Sneak Attacks deal 1x your DEX (1/2x when off-hand) to damage when using DEX for damage
+
+# Assassination (Core, Tier 3, M+C)
+Prereq.: Greater Sneak Attack
+- Can declare Sneak Attack on every primary attack, not just once per round
+- When not used on primary attacks, can declare it once per round on secondary attacks
+- Once per round, can use Inspiration and add one Inspiration die to attack roll
+- Can use Full Action (Standard+Move) to observe a target. On the following round. 
+Your first sneak attack on the following round deals double your Cunning Level direct HP precission damage
+
+* Extra Rogue Talent II (Talent, Tier 3, C)
+Prereq.: Extra Rogue Talent I
+- Gain a Rogue Talent
+
+* Extra Rogue Talent III (Talent, Tier 4, C)
+Prereq.: Extra Rogue Talent II
+- Gain a Rogue Talent
+
+* Extra Rogue Talent IV (Talent, Tier 5, C)
+Prereq.: Extra Rogue Talent III
+- Gain a Rogue Talent
+
+* Master Strike (Talent, Tier 5, C)
+Prereq.: Assassination
+- Make one Sneak Attack as a Standard Action against a valid target. When Sneak Attack hits, you can forgo all bonus damage dice and put target under an effect.
+You get the number of damage dice as bonus on save DC.

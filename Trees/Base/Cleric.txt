@@ -1,0 +1,42 @@
+Cleric
+
+# Divine Magic (Core, Tier 1, D+D)
+- Spellcaster: Divine, Full, Level = Divine Level (max. Chara Level), Bonus = Divine Bonus, List = Cleric
+- You have to prepare spells after a long rest. The number you can prepare is CHA + highest Divine Spell Level Talent
+- Add 2 to the number of spells known per level (except level 0)
+- Select a divine Source (Positive, Negative, Chaos, Balance, specific God)
+- You can spontaneously convert any prepared divine spell into a thematic spell of your divine source of the same level
+- You gain the Divine Channel of your Source (CHA times per day, Level = Caster level)
+
+* (9 Spell Level Talents)
+
+# Divine Domain (Core, Tier 1, D+D)
+Prereq.: Divine Magic
+- Select a Domain that your Source provides
+- Gain First Domain Powers
+- gain Channel Energy of that domain
+
+* Domain Spells (Talent, Tier1, D)
+Prereq.: Divine Domain
+- You learn the bonus spells of all your domains up to the level you can cast.
+- Gain 1 Spell Slot per day for each level you can cast. This slot can only be used to cast a bonus domain spell.
+Spells prepared for these slots don't count against your preparation limit.
+
+* Divine Energy (Talent, Tier 2, D)
+- After each short rest, you regain spell slots. The number of spell levels in total you regain is your Divine Bonus
+- You can instead regain uses of Divine Channel. They count as 1 spell level each.
+
+* Second Divine Domain (Talent, Tier2, D)
+Prereq.: Divine Domain
+- Select a Domain that your Source provides
+- Gain First Domain Powers
+- gain Channel Energy of that domain
+
+* Domain Focus (Talent, Tier 3, D)
+Prereq.: Divine Domain
+- Gain higher power of your first domain
+
+* Second Domain Focus (Talent, Tier 4, D)
+Prereq.: Divine Domain
+- Gain higher power of your second domain
+

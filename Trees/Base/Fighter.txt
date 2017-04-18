@@ -1,0 +1,44 @@
+Fighter
+
+# Basic Fighter Training (Core, Tier 1, M+M)
+- Gain training with one martial weapon type or +1 damage with one weapon type
+- Gain training with one armor heavier than your current training or training with shields.
+- Gain 2 STM for each Fighter Core (incl. this one) and Combat Talent
+
+# Discipline (Core, Tier 1, M+M)
+Prereq.: Basic Fighter Training, Martial Level 4
+- Once per short rest you can spend a Quick Action to heal 1d10 + Martial Level STM
+- You can force one (or 2 at Tier 4) effect or attack targeting your CHA defense to reroll ist attack roll. 
+You can choose to use this ability after you know the result of the initial attack roll. 
+You have to accept the second roll
+
+* Action Surge (Talent, Tier 1, M)
+Prereq.: Basic Fighter Training, Martial Level 4
+- Once per short rest you can take an extra Standard Action at any point on your round.
+This costs your Tier as STM
+
+# Advanced Fighter Training (Core, Tier 2, M+M)
+Prereq.: Basic Fighter Training, Martial Level 5
+- Choose two weapon groups. You gain +1 Atk and +2 Dmg with weapons of these groups
+- Medium and heavy armor count as one category lighter for effects on moving speed and running
+
+* Armor Mastery (Talent, Tier 3, M)
+Prereq.: Advanced Fighter Training, Martial Level 6
+- When wearing armor with a deflection bonus or when wielding a shield, you get a +1 bonus to  deflection
+- When wearing armor, you get a +1 bonus to armor DR
+- Armor check penalties lessen by 1
+
+* Weapon Training (Talent, Tier 3, M)
+Prereq.: Advanced Fighter Training, Martial Level 7
+- Add +1 Atk and +2 Dmg to one of your chosen weapon groups
+
+* Weapon Mastery (Talent, Tier 4, M)
+Prereq.: Weapon Training, Martial Level 8
+- Choose one additional weapon group. You gain +1 Atk and +2 Dmg with weapons of that group and 
+can add this bonus again to one of your chosen weapon groups
+
+* Power Surge (Talent, Tier 5, M)
+Prereq.: Action Surge, Discipline, Martial Level 12
+- You can use Action Surge two times per short rest but still only once per round
+- When you heal yourself using Fighter Training, add your CON to the STM healed
+
