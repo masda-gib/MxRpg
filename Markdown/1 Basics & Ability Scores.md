@@ -55,6 +55,7 @@ Every Character has some statistics that are very commonly used.
 
 For normal Fighting, there are the following attack and defense statistics:
 
+    Initiative        = DEX or INT + (1/2 Cunning Bonus)
     Attack Bonus      = Martial Bonus + (STR or DEX)
     Deflection (DEFL) = 10 + (1/2 * Martial Bonus) + DEX
     Surprised DEFL    = 10 + (1/2 * Martial Bonus)
@@ -63,16 +64,18 @@ Attack Bonus and DEFL are increased by 1 for each size category smaller than med
 
 ###Ability Defenses###
 
-When a special ability is attacked directly the following defenses are used.
+When a special ability is attacked directly the following defenses are used. Ability defenses are used in saving throws against a difficulty class value (DC) which are:
 
-Every ability defense has a base value and a threshold. To fully succeed with an attack, it has to overcome base value + threshold. If the attack only overcomes the base value it is a partial success.
+    Saving Throw = 1d20 + ability defense
+
+Every ability defense has a base value and a threshold. To fully save against an effect, you have roll your saving throw as high or higher as the DC. If you fail your saving throw by up to your threshold, you are partially affected. If you fail by more, you are fully affected.
 
 Some defenses count as strong defenses. Those have 1 + the characters TIER added.
 
-    STR defense = 10 + STR (+1 + Tier if strong)
-    DEX defense = 10 + DEX (+1 + Tier if strong)
-    CHA defense = 10 + CHA (+1 + Tier if strong)
-    INT defense = 10 + INT (+1 + Tier if strong)
+    STR defense = STR (+1 + Tier if strong)
+    DEX defense = DEX (+1 + Tier if strong)
+    CHA defense = CHA (+1 + Tier if strong)
+    INT defense = INT (+1 + Tier if strong)
     Threshold   = CON
 
 STR defense protectets against attacks that target your bodily functions, you stability or your life energies directly (Poison, Shockwaves, Death Magic).
@@ -91,19 +94,21 @@ reduced health discribes the serious injuries and damages a character has taken.
 
 Any normal damage is first taken from STM and then from HP. Special direct-HP damage is taken directly from HP.
 
-    HP        = Racial HP + Tier + CON + STR
-    Threshold = CON
-    STM       = CON + CHA + STM from Tokens
+    HP              = Racial HP + CON + STR + Tier
+    Wound Threshold = CON
+    STM             = CON + CHA + STM from Tokens
 
-When you take damage or take a Standard Action and have mor HP damage than your HP threshold afterwards, throw a d20 + HP damage over your threshold. At partial effect you gain 1 HP damage. That doesn't trigger a new injury throw. At full effect you gain an exhaustion level.
+When you take damage or take a Standard Action and have mor HP damage than your HP threshold afterwards, make a STR saving throw against 5 + HP damage over your wound threshold. At partial effect you gain 1 HP damage. That doesn't trigger a new saving throw. At full effect you gain an exhaustion level.
+
+Example: Fighterman has 20 maximum HP and a wound threshold of 4. He takes a hit that brings him to 10 HP. He must now make a STR save against 11 (5 + 6HP under 20-4HP). He rolls a 9 and therefore misses by 2. His STR save threshold is also 4 so he is partially affected and takes an additional 1HP damage.
 
 ####Exhaustion####
 
 Exhaustion has several stages that get worse.
 
-1. -1 to all effective Token Bonusses on die throws, all skill checks and ability all defense thresholds (negative threshold means defense penalty) and cannot sprint
-2. penalties above raise to -2, -1 maximum spell level and half speed
-3. penalties above raise to -3 -2 maximum spell level and can only take one Standard or Move action + Quick Action each round
+1. -1 to all initiative, attack and damage rolls, all skill checks and caster bonus and cannot sprint
+2. penalties above also applies to DEFL and all ability defense thresholds (negative threshold means defense penalty), -1 maximum spell level and half speed
+3. penalties above raise to -2, -2 maximum spell level and can only take one Standard or Move action + Quick Action each round
 4. Unconsious
 5. Dead
 

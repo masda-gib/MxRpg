@@ -58,14 +58,43 @@ As you gain levels, you gain Tokens. Three at first level and one each level the
 	</tr>
 	<tr>
 		<td>per Bonus</td>
-		<td>1 HP</td>
+		<td>1 HP*</td>
 		<td>1 Skill Point</td>
 		<td>1 Inspiration</td>
-		<td>1 Threshold*</td>
+		<td>1 Threshold**</td>
 		<td>1 Ki Point</td>
 	</tr>
 </table>
-\* Threshold of any one ability defense (chosen per bonus)
+\* 1 HP and Wound threshold increases by 1  
+\*\* Threshold of any one ability defense (chosen per bonus)
+
+Each Token you have of a specific type increases the Token Level of that type by one. Depending of the Token Level you have a Token Bonus of that type.
+
+If for example you have 8 Martial Tokens your Martial Level is 8 and your Martial Bonus is 4.
+
+<table>
+	<tr>
+		<td>Token Level</td>
+		<td>1</td>
+		<td>2-3</td>
+		<td>4-6</td>
+		<td>7-10</td>
+		<td>11-14</td>
+		<td>15-18</td>
+		<td>19-22</td>
+	</tr>
+	<tr>
+		<td>Token Bonus</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+	</tr>
+</table>
+
 
 ###The First Level###
 
@@ -108,7 +137,7 @@ For each of you three Tokens you gain at level 1 you must select on kind of trai
 		<td>1 defense of DEX or INT, 2 Skill Points</td>
 		<td>1 defense of CHA or INT, 2 Skill Points</td>
 		<td>2 defenses of any</td>
-		<td>1 defense of STR, CHA, 2 Skill Points</td>
+		<td>1 defense of STR or CHA, 2 Skill Points</td>
 	</tr>
 </table>
 
@@ -138,3 +167,22 @@ The skill points gained from first level token effects can only be spent on or i
 Skill Points gained from Cunning Bonus can be distributed freely even at first level and don't let skills count as Core Skills.
 
 ##Character Advancement##
+
+<table>
+	<tr>
+		<td>Token Type</td>
+		<td>Martial</td>
+		<td>Cunning</td>
+		<td>Arcane</td>
+		<td>Divine</td>
+		<td>Psychic</td>
+	</tr>
+	<tr>
+		<td>Skill Fields</td>
+		<td>Body, Arts, Nature, Society, Interaction</td>
+		<td>All</td>
+		<td>Arts, Nature, Lore, Magic, Society, Interaction</td>
+		<td>Arts, Nature, Lore, Magic, Society, Interaction</td>
+		<td>Body, Arts, Lore, Society, Interaction, Trickery</td>
+	</tr>
+</table>
