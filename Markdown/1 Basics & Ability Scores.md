@@ -57,10 +57,11 @@ For normal Fighting, there are the following attack and defense statistics:
 
     Initiative        = DEX or INT + (1/2 Cunning Bonus)
     Attack Bonus      = Martial Bonus + (STR or DEX)
+    Maneuver DC       = 10 + (1/2 * Martial Bonus) + STR + DEX
     Deflection (DEFL) = 10 + (1/2 * Martial Bonus) + DEX
     Surprised DEFL    = 10 + (1/2 * Martial Bonus)
 
-Attack Bonus and DEFL are increased by 1 for each size category smaller than medium and reduced by 1 for each size category larger than medium.
+Attack Bonus and DEFL are increased by 1 for each size category smaller than medium and decreases by 1 for each size category larger than medium. Maneuver DC is decreases by 1 for every size category smaller than medium and increased by 1 for every size category larger than medium.
 
 ###Ability Defenses###
 
@@ -90,7 +91,7 @@ INT defense protects against effects that can be overcome with logic or quick wi
 
 A character has health points (HP) and stamina (STM).
 
-reduced health discribes the serious injuries and damages a character has taken. Stamina describes the amount of vigor and self-protective capabilities a character has. If a character reaches 0 HP he or she is dead.
+Reduced health discribes the serious injuries and damages a character has taken. Stamina describes the amount of vigor and self-protective capabilities a character has. If a character reaches 0 HP he or she is dead.
 
 Any normal damage is first taken from STM and then from HP. Special direct-HP damage is taken directly from HP.
 
@@ -98,7 +99,7 @@ Any normal damage is first taken from STM and then from HP. Special direct-HP da
     Wound Threshold = CON
     STM             = CON + CHA + STM from Tokens
 
-When you take damage or take a Standard Action and have mor HP damage than your HP threshold afterwards, make a STR saving throw against 5 + HP damage over your wound threshold. At partial effect you gain 1 HP damage. That doesn't trigger a new saving throw. At full effect you gain an exhaustion level.
+When you take damage from any source (even by spending STM on a combat talent) and have mor HP damage than your HP threshold afterwards, make a STR saving throw against 5 + HP damage over your wound threshold. At partial effect you gain 1 HP damage. That doesn't trigger a new saving throw. At full effect you gain an exhaustion level in addition to that 1HP extra damage.
 
 Example: Fighterman has 20 maximum HP and a wound threshold of 4. He takes a hit that brings him to 10 HP. He must now make a STR save against 11 (5 + 6HP under 20-4HP). He rolls a 9 and therefore misses by 2. His STR save threshold is also 4 so he is partially affected and takes an additional 1HP damage.
 
@@ -193,3 +194,11 @@ Penalties are removed at the following rate:
 
 - Ability Penalties: Ability penalties are removed a 1 point on each ability per long rest and double that rate with each complete day of rest.
 - Fatigue: 1 level of fatigue is removed after each short rest. All fatigue is removed after a long rest.
+
+##Inspirations##
+
+Inspirations can be used to add a little edge in form of an additional die to a check or action.
+
+Normally an inspiration can be used on a skill check though some talents and special abilities can broaden the use. Per round only one inspiration die throw can be made.
+
+You normal inspiration die is 1d3. Some talents increase this die either generally or for specific uses. The increase follows the pattern 1d4, 1d6, 1d8, 1d12, 2d8, 2d12, ...

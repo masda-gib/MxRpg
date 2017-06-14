@@ -58,15 +58,14 @@ As you gain levels, you gain Tokens. Three at first level and one each level the
 	</tr>
 	<tr>
 		<td>per Bonus</td>
-		<td>1 HP*</td>
+		<td>1 HP</td>
 		<td>1 Skill Point</td>
 		<td>1 Inspiration</td>
-		<td>1 Threshold**</td>
+		<td>1 Threshold*</td>
 		<td>1 Ki Point</td>
 	</tr>
 </table>
-\* 1 HP and Wound threshold increases by 1  
-\*\* Threshold of any one ability defense (chosen per bonus)
+\* Threshold of any one ability defense (chosen per bonus)
 
 Each Token you have of a specific type increases the Token Level of that type by one. Depending of the Token Level you have a Token Bonus of that type.
 
@@ -166,23 +165,111 @@ The skill points gained from first level token effects can only be spent on or i
 
 Skill Points gained from Cunning Bonus can be distributed freely even at first level and don't let skills count as Core Skills.
 
+###Below First Level###
+
+Children, young characters and weak creatures might have a level of below 1. Your effective Tier is 0 in this case for everything except prerequisite for Talents and Cores.
+
+You are only required to have at least one Core at first level when you gain your third first level Token.
+
+- If you have 2 of your 3 first level Tokens, you count as Level 1/2.
+- If you have 1 of your 3 first level Tokens, you count as Level 1/3.
+- If you have 0 of your 3 first level Tokens, you count as Level 1/4. You now only have your ability scores, background traits and skills from INT as characterization.
+
 ##Character Advancement##
+
+###Rewards of Levelling Up###
 
 <table>
 	<tr>
-		<td>Token Type</td>
-		<td>Martial</td>
-		<td>Cunning</td>
-		<td>Arcane</td>
-		<td>Divine</td>
-		<td>Psychic</td>
+		<td>Level</td>
+		<td>Tokens</td>
+		<td>Traits</td>
+		<td>Tier</td>
+		<td>Ability</td>
 	</tr>
 	<tr>
-		<td>Skill Fields</td>
-		<td>Body, Arts, Nature, Society, Interaction</td>
-		<td>All</td>
-		<td>Arts, Nature, Lore, Magic, Society, Interaction</td>
-		<td>Arts, Nature, Lore, Magic, Society, Interaction</td>
-		<td>Body, Arts, Lore, Society, Interaction, Trickery</td>
+		<td>1</td>
+		<td>3, special bonuses, must have one Core</td>
+		<td>2 background</td>
+		<td>1, Common</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td><td>1</td><td></td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>3</td><td>1</td><td></td><td></td><td>first increase</td>
+	</tr>
+	<tr>
+		<td>4</td><td>1</td><td>1</td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>5</td><td>1</td><td></td><td>2, Notable</td><td></td>
+	</tr>
+	<tr>
+		<td>6</td><td>1</td><td></td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>7</td><td>1</td><td></td><td></td><td>second increase</td>
+	</tr>
+	<tr>
+		<td>8</td><td>1</td><td>1</td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>9</td><td>1</td><td></td><td>3, Heroic</td><td></td>
+	</tr>
+	<tr>
+		<td>10</td><td>1</td><td></td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>11</td><td>1</td><td></td><td></td><td>third increase</td>
+	</tr>
+	<tr>
+		<td>12</td><td>1</td><td>1</td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>13</td><td>1</td><td></td><td>4, Epic</td><td></td>
+	</tr>
+	<tr>
+		<td>14</td><td>1</td><td></td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>15</td><td>1</td><td></td><td></td><td>fourth increase</td>
+	</tr>
+	<tr>
+		<td>16</td><td>1</td><td>1</td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>17</td><td>1</td><td></td><td>5, Destined</td><td></td>
+	</tr>
+	<tr>
+		<td>18</td><td>1</td><td></td><td></td><td></td>
+	</tr>
+	<tr>
+		<td>19</td><td>1</td><td></td><td></td><td>fifth increase</td>
+	</tr>
+	<tr>
+		<td>20</td><td>1</td><td>1</td><td></td><td></td>
 	</tr>
 </table>
+
+####Level and Tier####
+
+
+####Tokens####
+
+####Traits####
+
+####Ability Score Increase####
+
+At some levels you can increase your ability scores. At each some point, you can either increase two abilities by 1 that were both not yet increased or you can increase any one ability by 1.
+
+This means after the second increase of two abilities, you can only increase one ability at each point because there are only five abilities.
+
+###Retraining###
+
+When you gain a new Token, you are always allowed to change or remove you last Talent before choosing a new Core or Talent. Removing the last talent can be done to gain a Token to buy a new Core.
+
+You can also change a Talent when you later gain this Talent as a bonus talent. You must then choose a new Talent you could have chosen when you got the earlier Talent to replace it.
+
+Cores and other Talents you gained earlier can not be retrained so easiliy.
