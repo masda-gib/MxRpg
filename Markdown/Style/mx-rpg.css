@@ -1,0 +1,77 @@
+body 
+{
+	border-left: 3em solid #eee;
+	border-right: 3em solid #eee;
+	color: #222;
+}
+
+h2
+{
+	border-bottom: .1em solid #ccc;
+}
+
+h3
+{
+	border-bottom: .05em solid #ddd;
+}
+
+blockquote
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	border-left: 1.5em solid #fff;
+	background-color: #eee;
+	color: #222;
+}
+
+blockquote p
+{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+blockquote p:first-of-type
+{
+	background-color: #ddd;
+	border-left: .5em solid #ccc;
+	padding-left: .5em;
+}
+
+blockquote p:last-of-type
+{
+	padding-bottom: .5em;
+}
+
+blockquote strong
+{
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: 700;
+	color: #000;
+	margin: .855em 0 .57em;
+}
+
+blockquote em
+{
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: 500;
+	color: #000;
+	margin: .855em 0 .57em;
+}
+
+blockquote mark
+{
+	font-style: italic;
+	background-color: transparent;
+	color: #555;
+}
+
+pre
+{
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	border-width: 0;
+	background-color: #eee;
+}
