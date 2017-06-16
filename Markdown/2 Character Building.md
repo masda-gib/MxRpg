@@ -1,8 +1,10 @@
-#Character Building#
+[TOC]
 
-##Character Creation##
+##Character Building
 
-###Description and Background###
+###Character Creation
+
+####Description and Background
 
 When creating a character, you have to choose the following things:
 
@@ -13,7 +15,7 @@ When creating a character, you have to choose the following things:
 - 2 Background Traits
 - where to distribute INT Skill Points
 
-####Buying ability scores####
+####Buying ability scores
 
 The standard method to aquire ability scores is buying them. With this system, your character starts with 2 in every of her five ability scores and has 10 points. These can be spent to increase your ability scores:
 
@@ -26,16 +28,15 @@ No starting ability score may be over 6 before applying race modifiers.
 
 Selling your basic two ability score points can gain you one point for each ability score point sold.
 
-####Starting Skills from INT####
+####Starting and Core Skills
 
 You can distribute your Skill Points from INT to any field or skill you choose.
 
-#### Core Skills####
 If For every 3 INT you have you can designate on specific skill you have put a skill point on as a Core Skill.
 
 A Core Skills synergy bonus is 2 instead of 1 and applies even if you have no training in that field.
 
-###Token Effects###
+###Token Effects
 
 As you gain levels, you gain Tokens. Three at first level and one each level thereafter.
 
@@ -95,13 +96,13 @@ If for example you have 8 Martial Tokens your Martial Level is 8 and your Martia
 </table>
 
 
-###The First Level###
+###The First Level
 
 At first level you get 3 Tokens. You must spent 2 of these to buy a Core. The third can be spent to buy a Talent.
 
 These first 3 Tokens also have other effects reflecting training in that token types field.
 
-####First Token Effects###
+####First Token Effects
 
 For each of you three Tokens you gain at level 1 you must select on kind of training. You cannot select a kind of training twice.
 
@@ -140,7 +141,7 @@ For each of you three Tokens you gain at level 1 you must select on kind of trai
 	</tr>
 </table>
 
-####Skills from first Tokens####
+####Skills from first Tokens
 
 The skill points gained from first level token effects can only be spent on or in fields associated with that token type. Additionally if you spend those points on specific skills (recommended) this skill counts as a Core Skill.
 
@@ -165,19 +166,9 @@ The skill points gained from first level token effects can only be spent on or i
 
 Skill Points gained from Cunning Bonus can be distributed freely even at first level and don't let skills count as Core Skills.
 
-###Below First Level###
+###Character Advancement
 
-Children, young characters and weak creatures might have a level of below 1. Your effective Tier is 0 in this case for everything except prerequisite for Talents and Cores.
-
-You are only required to have at least one Core at first level when you gain your third first level Token.
-
-- If you have 2 of your 3 first level Tokens, you count as Level 1/2.
-- If you have 1 of your 3 first level Tokens, you count as Level 1/3.
-- If you have 0 of your 3 first level Tokens, you count as Level 1/4. You now only have your ability scores, background traits and skills from INT as characterization.
-
-##Character Advancement##
-
-###Rewards of Levelling Up###
+####Rewards of Levelling Up
 
 <table>
 	<tr>
@@ -253,20 +244,29 @@ You are only required to have at least one Core at first level when you gain you
 	</tr>
 </table>
 
-####Level and Tier####
+####Level and Tier
 
+####Tokens
 
-####Tokens####
+####Traits
 
-####Traits####
-
-####Ability Score Increase####
+####Ability Score Increase
 
 At some levels you can increase your ability scores. At each some point, you can either increase two abilities by 1 that were both not yet increased or you can increase any one ability by 1.
 
 This means after the second increase of two abilities, you can only increase one ability at each point because there are only five abilities.
 
-###Retraining###
+###Below First Level
+
+Children, young characters and weak creatures might have a level of below 1. Your effective Tier is 0 in this case for everything except prerequisite for Talents and Cores.
+
+You are only required to have at least one Core at first level when you gain your third first level Token.
+
+- If you have 2 of your 3 first level Tokens, you count as Level 1/2.
+- If you have 1 of your 3 first level Tokens, you count as Level 1/3.
+- If you have 0 of your 3 first level Tokens, you count as Level 1/4. You now only have your ability scores, background traits and skills from INT as characterization.
+
+###Retraining
 
 When you gain a new Token, you are always allowed to change or remove you last Talent before choosing a new Core or Talent. Removing the last talent can be done to gain a Token to buy a new Core.
 

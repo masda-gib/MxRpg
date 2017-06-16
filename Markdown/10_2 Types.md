@@ -1,6 +1,8 @@
-#Types#
+[TOC]
 
-##Bonus and Penalty Types##
+###Types
+
+####Bonus and Penalty Types
 
 - Competence: Bonus for having better knowledge
 - Moral: Bonus for having high spirit
@@ -18,9 +20,9 @@
 
 - Typeless: Bonuses without a type always stack except they are from the same source
 
-##Creature Types##
+####Creature Types##
 
-###Main Types###
+#####Main Types###
 The types (and some subtypes) are listed here.
 
 Natural Types:
@@ -47,7 +49,7 @@ Planar Types:
 
 * when selecting creature types for abilities like favored enemy, 2 species subtypes must be selected. Each Humanoid must have a species subtype
 
-###Subtypes###
+#####Subtypes###
 
 Some general subtypes are listed here.
 
@@ -55,21 +57,21 @@ Some general subtypes are listed here.
 - Giant: Gigantig, mostly humanoid creatures. 
 - Incorporeal: not touchable from the material plane
 
-##Damage/Energy Types##
+####Damage/Energy Types
 
-###Kinetic Damage###
+#####Kinetic Damage
 
 - **Physical** (Bludgeoning/Piercing/Slashing, basically hitting and stabbing from the outside)
 - **Trauma** (kinetic untyped damage with infinite AP due to rapid speed changes. Armor or e.g. slashing resistance don't protect. Stuff like falling or sonic damage)
 
-###Elemental Energy Damage###
+#####Elemental Energy Damage
 
 - Fire (Heat)
 - Cold
 - Shock (Electricity)
 - Acid
 
-###Other Energy Damage
+#####Other Energy Damage
 
 - Radiant (Positive)
 - Consuming (Negative)
@@ -77,9 +79,9 @@ Some general subtypes are listed here.
 - Psychic (affecting living mind directly)
 - Necrotic (affecting living body directly)
 
-###Special Forms of Damage###
+####Special Forms of Damage
 
-####Nonlethal Damage####
+#####Nonlethal Damage
 
 Nonlethal damage works normally on STM but doesn't do HP damage directly. 
 
@@ -87,13 +89,13 @@ Instead, any excess STM-Damage below 0 STM is treated like HP damage for forcing
 
 You don't die when your excess STM damage is greater than your maximum HP. All additional exhaustion levels gained only from excess STM damage disappear when you heal all excess STM damge.
 
-####Precision Damage####
+#####Precision Damage
 
 Precision damage is a damage descriptor saying this damage needs a careful hit against an anatomy to work. Creatures immune to precission damage are not affected by this damage.
 
 This is the case for critical hits and sneak attack for example.
 
-####Direct-HP Damage####
+#####Direct-HP Damage
 
 Direct-HP damage ignores STM and damages HP directly. If physical normal and direct-HP damage is delivered with the same attack, armor DR only deducts damage once and first from normal damage.
 

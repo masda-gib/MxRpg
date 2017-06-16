@@ -1,1 +1,3 @@
-#Magic#
+[TOC]
+
+##Magic

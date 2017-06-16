@@ -1,6 +1,8 @@
-#Combat#
+[TOC]
 
-##Making Attacks##
+###Combat
+
+####Making Attacks
 
 You attack by rolling a d20 and add your [Martial Bonus] and either your [STR] or [DEX] depending on the type of attack and weapon.
 
@@ -8,8 +10,8 @@ You hit if your result is equal or higher than the [DEFL] of your target.
 
 The targets [DEFL] is 10 + half his [Martial Bonus] + his [DEX] + any deflection from armor, shield or dodge bonusses.
 
-##Attack Types##
-###Meelee Attacks###
+####Attack Types
+#####Meelee Attacks
 Normally you make meelee attacks using your STR.
 
     Attack Bonus = Martial Bonus + STR
@@ -26,7 +28,7 @@ For off hand attacks damage is modified depending on how you add your ability to
     Full ability -> Half ability
     Half ability -> Nothing
 
-###Ranged Attacks###
+#####Ranged Attacks
 Normally you make ranged attacks with weapons such as bows and crossbows using your DEX.
 
     Attack Bonus = Martial Bonus + DEX
@@ -37,9 +39,9 @@ You make thrown attacks with weapons like javelins using a combination of DEX an
     Attack Bonus = Martial Bonus + DEX
     Damage = Weapon die + (STR or half DEX)
 
-##Attack Modifiers##
+####Attack Modifiers
 
-###Fencing###
+#####Fencing
 
 If you have a weapon in your main hand and nothing in your other hand, you are fencing when making meelee attacks.
 
@@ -47,15 +49,43 @@ When fencing, you get +1 to attack rolls and +1 precision damage with your main 
 
 When using these bonusses, you can not use your empty off-hand for anything else this round. This includes spellcasting, maneuvers, climbing or using items.
 
-##Maneuvers##
+#####Covor
+
+#####Flanking
+
+####Maneuvers
 
 Maneuvers are special attacks that try to affect the target in means other than doing damage. There are 4 groups of maneuvers.
 
     Maneuver DC       = 10 + (1/2 * Martial Bonus) + STR + DEX
 
-##Brutal Group##
+#####Maneuver Groups
 
-###Bull Rush###
+######Brutal Group
+
+- Bull Rush
+- Sunder
+- Overrun
+
+######Cunning Group
+
+- Trip
+- Disarm
+- Stunt
+
+######Dirty Group
+
+- Feint
+- Dirty Trick
+- Demoralize
+
+######Grapping Group
+
+- Drag
+- Grapple
+- Steal
+
+#####Bull Rush
 
 Attacker makes an attack without weapon as an Attack Action.
 
@@ -63,7 +93,7 @@ If the attacker misses the initial attack, the defender can make an opportunity 
 
 If the the defender fails partially, she is pushed back 5ft. If the defender fails fully and the attacker moves into her space she is pushed back 10ft.
 
-###Sunder###
+#####Sunder
 
 The attacker uses this manauver instead of a normal weapon attack.
 
@@ -78,7 +108,7 @@ If the attacker misses the attack, the defender can make an opportunity attack a
 
 See a table for HP and DR of different items.
 
-###Overrun###
+#####Overrun
 
 The attacker uses this maneuver if she tries to move through an opponents square.
 The defender can choose to let her pass. If not, the defender makes an STR save against the attackers Maneuver DC.
@@ -89,9 +119,7 @@ If the defender fails partially, the attacker can move through the square. If th
 
 For every successful overrun, the Maneuver DC gets a cumulative -5 penalty until next round.
 
-##Cunning Group##
-
-###Trip###
+#####Trip
 
 The attacker uses this manauver instead of a normal weapon attack.
 
@@ -99,7 +127,7 @@ She makes a weapon attack against the defender. If the she misses the initial at
 
 If the the defender fails partially, she is knocked prone. If the defender fails fully she is knocked prone and takes 1d6 falling damage.
 
-###Disarm###
+#####Disarm
 
 The attacker uses this manauver instead of a normal weapon attack.
 
@@ -113,7 +141,7 @@ If the attacker misses the attack, the defender can make an opportunity attack a
 
 If the the defender fails partially, the targetted item falls to the ground in her square. If the defender fails fully the item falls into an adjacent square of the attackers choice. If she chooses her square (and is adjacent) and has a hand free, she catches the item.
 
-###Stunt###
+#####Stunt
 
 The attacker makes this maneuver as part of a move. This move must include a climb, swim, jump, slide, swing or wall-flip or something like that and the attacker must and the move threatening the target.
 
@@ -125,15 +153,13 @@ If the defender makes the save, she can make an opportunity attack against the a
 
 If the defender fails partially the attacker counts as charging. If she already counts as charging because of the movement she gains +1 to the first attack. If the defender fails fully she has surprised DEFL against the first attack of the attacker in addition to the partial effects.
 
-##Dirty Group##
-
-###Feint###
+#####Feint
 
 As an Attack Action you make a Bluff Check. The defender must make a INT save taking the Bluff check result as DC.
 
 If the defender fails partially she has surprised DEFL against the next attack of the attacker. If the defender fails fully, she has surprised DEFL against all attacks of the attacker until the start of the attackers next round.
 
-###Dirty Trick###
+#####Dirty Trick
 
 Attacker makes an attack without weapon as a Standard Action.
 
@@ -148,15 +174,13 @@ The condition is chosen by the attacker from the following list:
 - sickened
 - ...
 
-###Demoralize###
+#####Demoralize
 
 As a Standard Action you make an Intimidate Check. The defender must make a CHA save taking the Bluff check result as DC.
 
 If the defender fails partially she she is shaken for one round. If the defender fails fully, she is shaken for a number of rounds equal to your skill bonus for Intimidate (at least 1).
 
-##Grabbing Group##
-
-###Drag###
+#####Drag
 
 Attacker makes an attack without weapon as an Attack Action.
 
@@ -164,7 +188,7 @@ If the attacker misses the initial attack, the defender can make an opportunity 
 
 If the the defender fails partially, she is pulled toward or around the attacker by 5ft. If the defender would be pulled into the attackers square, the attacker must move back to avoid that. If the defender fails fully she is pulled towards or around the attacker by back 10ft.
 
-###Grapple###
+#####Grapple
 
 Attacker makes an attack without weapon as a Standard Action.
 
@@ -189,7 +213,7 @@ When the either opponent fails these further saves at least partially, the grapp
 
 You can use your Move Action to make secondary attacks if you attacked during the Grapple action. But you can't move.
 
-####Variant: Grapple Climbing####
+######Variant: Grapple Climbing
 
 If the defender is at least a size category bigger than the attacker, the attacker can choose to climb the defender. When doing this, the defender must make a DEX save insted of a STR save after a successful initial attack.
 
@@ -202,7 +226,7 @@ To take control or move the defender around she must force the defender to make 
 Since the defender is not grappling she can move and attack freely. If she has the grappled condition, she has lower DEX and half speed.  
 To remove the grappling climber the defender has two options. The defender can succeed at a Grapple attempt (requires an attack roll since defender is not grappling) to grapple the opponent and later end the grapple. Or the defender can spend a Standard Action to try to shake off the climber. In this case the climber has to make a Climbing check against the defenders Grapple Maneuver DC or fall off.
 
-###Steal###
+#####Steal
 
 The attacker uses this manauver instead of a normal weapon attack. This maneuver requires a free hand.
 

@@ -1,6 +1,10 @@
-#Gamemastering#
+[TOC]
 
-##Damage Resistance and Immunity##
+##Gamemastering
+
+###Special Abilities
+
+####Damage Resistance and Immunity
 
 A creature or object can have resistance, strong resistance or immunity to a for of damage. Resistance halfes damage, strong resistance quarters it and immunity negates it completely.
 
@@ -10,7 +14,7 @@ Resistance stacks in a special way: If an object has resistance for the same dam
 
 The halving of damage from resistance stacks with other effects such as half damage from a successful saving throw.
 
-##Spell Resistance##
+####Spell Resistance
 
 Spell resistance provides protection from spells. A creature can either have weak or strong spell resistance.
 
@@ -20,6 +24,6 @@ Strong spell resistance grants strong resistance to any direct damage from spell
 
 So spell resistance protects against a Fireball or Charm Monster but not against hits from a summoned creature or being tricked by an illusionary wall.
 
-##Spell Immunity##
+####Spell Immunity
 
 Spell immunity grants immunity to spell damage and you are treated as succeeding all saving throws against spell effects.

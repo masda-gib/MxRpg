@@ -1,6 +1,8 @@
-#Alignment#
+[TOC]
 
-The universe is driven by 3 mayor forces: 
+###Alignment
+
+The universe is driven by 3 mayor forces:
 
 - The entropic **Chaos** from which everything was created and to which everything will degenerate if left alone.
 - The radiant forces of **Creation** which build and create and give life and light.
@@ -8,7 +10,7 @@ The universe is driven by 3 mayor forces:
 
 The forces of Creation and Undoing try to bring order to the universe. They create a steady stream of creation and destruction, birth and death, beginning and end. They are the flow of things. In the Chaos no such things exist. In Chaos there is no order, no causality - everything is the same and also nothing.
 
-##Character Alignment##
+####Character Alignment
 
 There are 10 alignments, of which 3 are the extreme aligments of the mayor forces , 1 is the complete absence of these and 6 are moderate in some direction.
 
@@ -41,7 +43,7 @@ There are 10 alignments, of which 3 are the extreme aligments of the mayor force
 	</tr>
 </table>
 
-##Relations between the Alignments##
+####Relations between the Alignments
 
 For some purposes (Zealot abilities), the mayor forces and neutrality are grouped with other alignments. The relations are:
 

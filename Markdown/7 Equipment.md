@@ -1,140 +1,138 @@
-#Equipment#
+[TOC]
 
-##Weapons##
+##Equipment
+
+###Weapons
 
 All values are for medium creatures.
 
-###Unarmed###
+####Unarmed
 
-- *Unarmed:* Damage 1d3, Critical x1
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Unarmed|1d2|1d3|x1|B|-|/|
 
-###Simple Weapons###
+####Simple Weapons
 
-- *Light Weapon:* Damage 1d4, Critical x1
-- *Balanced Weapon:* Damage 1d6, Critical x1
-- *Heavy Weapon:* Damage 1d8, Critical x1
-- *Ranged Weapon:* Damage 1d6, Critical x1
+#####Light Melee Weapons
 
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Dagger|1d3|1d4|19-20/x1|P or S|10ft.|/|
 
-**Club:** 
-Damage 1d6, AP2, Critical 20/x1, Bludgeoning
+#####Balanced Melee Weapons
 
-Balanced
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Club|1d4|1d6|x1|B|10ft.|AP(1/2)|
+|Quarterstaff|1d4|1d6|x1|B|-|AP (1/2) only when two-handed,<br> Versatile (1d6/1d8)|
 
-**Quarterstaff:** 
-Damage 1d6, AP1, Critical 20/x1, Bludgeoning
+#####Heavy Melee Weapons
 
-Balanced, Adaptable 1d8
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Longspear|1d6|1d8|x2|P|-|Reach, Brace|
 
-**Light Crossbow:** 
-Damage 1d8, AP2, Critical 19-20/x1, Piercing
+#####Ranged Weapons
 
-Can't do secondary attacks. 
-Needs both hands to use. 
-Needs Move Action to reload.
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Light Crossbow|1d6|1d8|19-20/x1|P|80ft.|AP (2/2),<br> No secondary attacks,<br> Reload: Move Action|
+|Heavy Crossbow|1d8|1d10|19-20/x1|P|120ft.|AP (2/3),<br> No secondary attacks,<br> Reload: Full Action|
+|Sling|1d4|1d6|x1|B|50ft.|Speed: Balanced,<br> damage as thrown|
 
-**Heavy Crossbow:** 
-Damage 1d10, AP3, Critical 19-20/x1, Piercing
+####Martial Weapons
 
-Can't do secondary attacks. 
-Needs both hands to use. 
-Needs Full Action to reload.
+#####Light Melee Weapons
 
-**Sling:** 
-Damage 1d6, Critical 19-20/x1, Bludgeoning
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Short Sword|1d4|1d6|19-20/x1|P or S|10ft.|/|
 
-Needs one hand to use, both hands to reload. 
-Gains extra/secondary attacks as a balanced weapon.
-Resolve attack as thrown weapon.
+#####Balanced Melee Weapons
 
-###Martial Weapons###
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Longsword|1d6|1d8|19-20/x1|S|-|Versatile (1d8/1d10)|
+|Rapier|1d4|1d6|18-20/x1|P|-|Finessable|
 
-- *Light Weapon:* Damage 1d6, Critical x2
-- *Balanced Weapon:* Damage 1d8, Critical x2
-- *Heavy Weapon:* Damage 1d12, Critical x2
-- *Ranged Weapon:* Damage 1d8, Critical x2
+#####Heavy Melee Weapons
 
-**Shortbow:** 
-Damage 1d6, Critical 20/x2, Piercing
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Greataxe|1d8|1d12|x2|S|-|/|
 
-Needs both hands to use. 
-Gains extra/secondary attacks as a balanced weapon.  
-*Composite*: Gain half STR to damage.
+#####Ranged Weapons
 
-**Longbow:** 
-Damage 1d8, Critical 20/x2, Piercing
+| Weapon | Damage S | Damage M | Critical | Type | Range | Properties (S/M) |
+|--------|:--------:|:--------:|:--------:|:----:|:-----:|:----------------:|
+|Shortbow|1d4|1d6|x2|P|60ft.|Speed: Balanced|
+|Composite Shortbow|1d4|1d6|x2|P|70ft.|Speed: Balanced, + half STR to damage (up to rating)|
+|Longbow|1d6|1d8|x2|P|100ft.|Speed: Heavy|
+|Composite Longbow|1d6|1d8|x2|P|110ft.|Speed: Heavy, + half STR to damage (up to rating)|
+|Shuriken|1|1d2|x1|P|50ft.|Speed: Light,<br> damage as thrown|
 
-Needs both hands to use. 
-Gains extra/secondary attacks as a heavy weapon.  
-*Composite*: Gain half STR to damage.
+###Weapon Properties
 
-**Rifle**
-Damage 2d6, AP4, Critical 19-20/x1, Piercing
-
-Can't do secondary attacks. 
-Needs both hands to use. 
-Needs Full Action to reload.
-
-**Shuriken:** 
-Damage 1d2, Critical 20/x1, Piercing
-
-Needs one hands to use. 
-Gains extra/secondary attacks as a light weapon.  
-Thrown weapon.
-
-###Weapon Properties###
-
-####Armor Piercing (AP)####
+####Armor Piercing (AP)
 A weapon with this property ignores some points of armor DR. Unless otherwise noted it ignore points equal to 1/3 its maximum damage (1 for 1d4, 4 for 1d12).
 
-####Adaptable####
+####Adaptable
 This can only be a property of a balanced weapon. When used two-handed, this weapon uses the given damage die.
 
-####Reach####
+####Reach
 You can strike targets 10ft away but not adjancent. You can use a move action to change the grid and only attack adjacent targets. If you choose the short grip, you are treated as not having training with the weapon.
 
-##Armors and Shields##
+####Speed
+This property of ranged weapons describes as which category it counts for the purposes of getting extra attacks (e.g. via Talent "Fast Shots").
 
-##Armors##
+####Composite Bows
+Composite bows have a rating ranging from 0 to 5. bows with a rating of 1 or higher allow you to add half your STR up to the rating to damage. So with STR 6 and a bow with rating 4 you could add 3 damage.
+
+You need at least a STR equal to the rating to use such a bow without penalties. If you have lower strength you take the rating as a damage penalty (minimum damage is still 1).
+
+###Armors and Shields
+
+####Armors
 
 The listed armor DR is for medium and small creatures. For smaller creatures it is reduced by 1, for large and huge creatures heightened by 1, and for larger creatures heightened by 2.
 
-###Light###
+#####Light
 
 Light armors affect arcane spellcasters, lowering the maximum spell level by 1.
 
-**Padded:** DR 1, DEFL 0, max DEX 10, CP 0
+| Armor | Armor DR | Armor DEFL | max DEX | Check penalty |
+|-------|:--------:|:----------:|:-------:|:-------------:|
+|Padded|1|0|10|0|
+|Leather|2|0|8|1|
+|Studded|2|1|6|1|
 
-**Leather:** DR 2, DEFL 0, max DEX 8, CP 1
+#####Medium
 
-**Studded:** DR 2, DEFL 1, max DEX 6, CP 1
-
-###Medium###
-
-Light armors affect arcane spellcasters, lowering the maximum spell level by 2.
+Medium armors affect arcane spellcasters, lowering the maximum spell level by 2.
 You have lower speed in medium armor.
 
-**Chainmail:** DR 3, DEFL 1, max DEX 5, CP 2
+| Armor | Armor DR | Armor DEFL | max DEX | Check penalty |
+|-------|:--------:|:----------:|:-------:|:-------------:|
+|Chainmail|3|1|5|2|
+|Scalemail|4|1|4|3|
+|Breastplate|4|2|3|4|
 
-**Scalemail:** DR 4, DEFL 1, max DEX 4, CP 3
-
-**Breastplate:** DR 4, DEFL 2, max DEX 3, CP 4
-
-###Heavy###
+#####Heavy
 
 Light armors affect arcane spellcasters, lowering the maximum spell level by 2.
 You have lower speed and move only 150% instead of 200% when sprinting.
 
-**Splintmail:** DR 5, DEFL 2, max DEX 2, CP 5
+| Armor | Armor DR | Armor DEFL | max DEX | Check penalty |
+|-------|:--------:|:----------:|:-------:|:-------------:|
+|Splintmail|5|2|2|5|
+|Full Plate|6|2|1|6|
 
-**Full Plate:** DR 6, DEFL 2, max DEX 1, CP 6
+####Shields
 
-###Shields###
+Shields affect arcane spellcasters, lowering the maximum spell level by 1.
 
-Large shields affect arcane spellcasters, lowering the maximum spell level by 1.
-
-**Small:** DEFL 2, max DEX 10, CP 0
-
-**Large:** DEFL 4, max DEX 4, CP 5
-
-CP = check penalty for STR and DEX skills
+| Shield | Shield DEFL | max DEX | Check penalty |
+|--------|:-----------:|:-------:|:-------------:|
+|Small Shield|2|10|0|
+|Large Shield|4|4|5|

@@ -1,9 +1,11 @@
-#Basics#
+[TOC]
+
+##Basics
 
 A character has some basic values that describe his or her abilities.
 The most important ones are description and ability scores.
 
-##Description##
+###Character Description
 
 This includes basic,mostly unchanging information like name, age and race.
 
@@ -14,7 +16,7 @@ This includes basic,mostly unchanging information like name, age and race.
 - Appearance
 - Morality
 
-##Ability Scores##
+###Ability Scores
 
 Ability Scores are the basic numeric statistics that are referred to by the rules. They covern a characters physical and mental strengths.
 Most other statistics are calculated from these.
@@ -30,7 +32,7 @@ STR and DEX are a characters physical brute force and quickness respectively. CH
 
 The ability scores have numerical values. 0 means no talent, hardly there. 3 is basic human ability. 6 is human paragon/genius ability. Anything from 7 on is absolutely exceptional or superhuman ability.
 
-##Tier and Tokens##
+###Level, Tier and Tokens
 
 As a character gains experience he or she gains levels. Every 4 Levels the character enters a new Tier. Level 1 characters start at Tier 1.
 
@@ -47,11 +49,11 @@ a Category Level which typically is the number of Tokens in a field the characte
 
 So, for each category a character has Tokens in, he or she has a Token Level and a Token Bonus.
 
-##Character Statistics##
+###Character Statistics
 
 Every Character has some statistics that are very commonly used. 
 
-###Fighting Statistics###
+####Fighting Statistics
 
 For normal Fighting, there are the following attack and defense statistics:
 
@@ -63,7 +65,7 @@ For normal Fighting, there are the following attack and defense statistics:
 
 Attack Bonus and DEFL are increased by 1 for each size category smaller than medium and decreases by 1 for each size category larger than medium. Maneuver DC is decreases by 1 for every size category smaller than medium and increased by 1 for every size category larger than medium.
 
-###Ability Defenses###
+####Ability Defenses
 
 When a special ability is attacked directly the following defenses are used. Ability defenses are used in saving throws against a difficulty class value (DC) which are:
 
@@ -87,7 +89,7 @@ CHA defense protects against attacks that try to damage, influence or possess yo
 
 INT defense protects against effects that can be overcome with logic or quick wits and and attacks that try to fool you. (Bluffs, Illusions, Confusion).
 
-###Health, Stamina and Exhaustion###
+####Health and Stamina
 
 A character has health points (HP) and stamina (STM).
 
@@ -103,7 +105,7 @@ When you take damage from any source (even by spending STM on a combat talent) a
 
 Example: Fighterman has 20 maximum HP and a wound threshold of 4. He takes a hit that brings him to 10 HP. He must now make a STR save against 11 (5 + 6HP under 20-4HP). He rolls a 9 and therefore misses by 2. His STR save threshold is also 4 so he is partially affected and takes an additional 1HP damage.
 
-####Exhaustion####
+####Exhaustion
 
 Exhaustion has several stages that get worse.
 
@@ -120,7 +122,7 @@ You gain 1 exhaustion level:
 - when having more HP damage than your HP threshold
 - when fully effected by a injury throw.
 
-###Skills###
+###Skills
 
 You have a basic number of skill points. Skill points can be spent to gain training in a skill field or an individual skill.
 
@@ -136,14 +138,14 @@ If you have training in a skill you also have training with tools required for u
     Only Skill   = Tier + Ability
     Both Traing. = 2 + Tier + Ability
 
-###Other Training###
+###Other Training
 
 Apart from skills, you can also have training in
 
 - Weapons and Implements
 - Armors and Shields
 
-####Weapon Training####
+####Weapon Training
 
 When you don't have training with a weapon your primary attacks also count as secondary and get the -4 penalty. Also you cannot make opportunity attacks with this weapon.
 
@@ -154,7 +156,7 @@ Typically the sequence in gaining weapon training is:
 2. All simple weapons
 3. 2 martial weapons each further training
 
-####Implement Training####
+####Implement Training
 
 Without training, an implement is only an ordinary object. With training implements give bonusses to spellcasting and manifestation.
 
@@ -165,7 +167,7 @@ Hands wielding implements count as a free hand for the purposes of spellcasting.
 - Staff: +1 to all spellcasting and +1 to one school (heavy handedness, like quarterstaff)
 - Conduct: +1 to manifestation (balanced handedness, like club)
 
-####Armor and Shield Training####
+####Armor and Shield Training
 
 Using an armor without training, you get its check penalty to attack rolls and the spell level reduction is increased by 1.
 
@@ -173,13 +175,13 @@ Using a shield without training gives its check penalty to attack rolls.
 
 Armor Training comes for light, medium and heavy armor. Shield training applies to all shields.
 
-###Attunement###
+###Attunement
 
 Attunement is your ability to connect with the energies of magic items you wear or use. If an item has several abilities that each need attunement you must spend an attunement slot (or more for some abilities) for each ability you want to function.
 
 Attuning to a collection of magic items needs a short rest. You have a number of attunement slot equal to your Tier.
 
-###Rest and Healing###
+###Rest and Healing
 
 A character has a number of resources that get depleted and regained throughout her career.
 
@@ -195,10 +197,10 @@ Penalties are removed at the following rate:
 - Ability Penalties: Ability penalties are removed a 1 point on each ability per long rest and double that rate with each complete day of rest.
 - Fatigue: 1 level of fatigue is removed after each short rest. All fatigue is removed after a long rest.
 
-##Inspirations##
+###Inspirations
 
 Inspirations can be used to add a little edge in form of an additional die to a check or action.
 
 Normally an inspiration can be used on a skill check though some talents and special abilities can broaden the use. Per round only one inspiration die throw can be made.
 
-You normal inspiration die is 1d3. Some talents increase this die either generally or for specific uses. The increase follows the pattern 1d4, 1d6, 1d8, 1d12, 2d8, 2d12, ...
+You normal inspiration die is 1d4. Some talents increase this die either generally or for specific uses. The increase follows the pattern 1d6, 1d8, 1d12, 2d8, 2d12, ...
