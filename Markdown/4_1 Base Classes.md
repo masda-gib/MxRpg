@@ -122,100 +122,13 @@ The rogues cores are:
 >
 > Once per round when an attack against a flanked target or a target with surprise DEFL against you hits you can make a sneak attack.
 >
-> Additional to your normal damage you do 1d6 damage and 1 point of direct HP precision damage. 
-At Cunning Level 5 and 12 this damage increases by 1d6 normal and 1 HP direct damage. 
+> You gain 1 Sneak Attack die.
+>
+> Additional to your normal damage you do 1d6 precision damage per Sneak Attach die. When scoring a critical hit you do 1 additional point of direct HP precision damage per Sneak Attack die.
 >
 > You get Trapfinding as a bonus talent.
-> 
-> Gain one Rogue Trick. 
-
-<p/>
->> *Improved Sneak Attack*
->> ==Talent, Tier 2, Token: C==
->> ==Prereq.: Roguishness==
->>
->> Your sneak attack damage increases by 1d6 normal damage.
->> 
->> When you make a Sneak Attack with a primary attack you can make Sneak Attacks with all further primary attacks of the same Action. 
-
-<p/>
->>> *Injuring Sneak Attack*
->>> ==Talent, Tier 3, Token: C==
->>> ==Prereq.: Improved Sneak Attack==
->>>
->>> Your sneak attack damage increases by 1d6 normal damage. 
->>> 
->>> You can add a condition to a Sneak Attack for one round, additional applications do not stack the effect but extend the duration by one round. The effects are: 
-- Bewildered 
-- Disoriented 
-- Hampered 
-
-<p/>
->>>> *Deadly Sneak Attack*
->>>> ==Talent, Tier 4, Token: C==
->>>> ==Prereq.: Injuring Sneak Attack==
->>>>
->>>> Your sneak attack damage increases by 1d6 normal and 3 HP direct damage.
->>>> 
->>>> On a critical hit with a weapon (not spell) you do an extra 1 direct HP damage for every critical die the weapon does. 
-
-<p/>
->>>>> **Master Strike**
->>>>> ==Core, Tier 5, Tokens: C + C==
->>>>> ==Prereq.: Deadly Sneak Attack==
->>>>>
->>>>> Your sneak attack damage increases by 1d6 normal and 1 HP direct damage.
->>>>> 
->>>>> Can apply a powerfull effect when making a Sneak Attack. 
-
-<p/>
->> **Caution**
->> ==Core, Tier 1, Tokens: C + C==
->> ==Prereq.: Roguishness==
->>
->> You gain Evasion. If an effect that targets your DEX defense normally does half damage on a miss it instead does no damage on a miss. You can't use Evasion in medium or heavy armor or when helpless.
->> 
->> You gain Danger Sense as a bonus Talent.
->> 
->> Gain one Rogue Trick. 
-
-<p/>
->> **Rogues Edge**
->> ==Core, Tier 2, Tokens: C + C==
->> ==Prereq.: Roguishness==
->>
->> You gain skill unlocks for one skill. 
->> 
->> You gain Uncanny Dodge as a bonus Talent. 
->> 
->> Gain one Rogue Trick. 
-
-<p/>
->>> **Rogues Edge 2**
->>> ==Core, Tier 3, Tokens: C + C==
->>> ==Prereq.: Roguishness==
->>>
->>> You gain skill unlocks for one skill. 
->>> 
->>> You gain Improved Uncanny Dodge as a bonus Talent. 
->>> 
->>> Gain one Advanced Rogue Trick. 
-
-<p/>
->>>> *Extra Edge*
->>>> ==Talent, Tier 4, Token: C==
->>>> ==Prereq.: Rogues Edge 2==
->>>>
->>>> You gain skill unlocks for one skill. 
->>>> 
->>>> Gain one Advanced Rogue Trick. 
-
-<p/>
->>>> *Extra Tricks*
->>>> ==Talent, Tier 5, Token: C==
->>>> ==Prereq.: Rogues Edge 2==
->>>>
->>>> Gain one Rogue Trick and one Advanced Rogue Trick. 
+>
+> Gain one Rogue Trick.
 
 <p/>
 >> *Dexterous Strike*
@@ -223,8 +136,105 @@ At Cunning Level 5 and 12 this damage increases by 1d6 normal and 1 HP direct da
 >> ==Prereq.: Roguishness==
 >>
 >> Select a light or finessable weapon. You can add your full DEX when making attacks with you main hand and half your DEX when making off-hand attacks.
->> 
+>>
 >> Select another weapon at Tier 3 and 5.
+
+<p/>
+>> *Evasion*
+>> ==Talent, Tier 1, Token: C==
+>> ==Prereq.: Roguishness==
+>>
+>> You gain Evasion. If an effect that targets your DEX defense normally does half damage on a successful save it instead does no damage on a successfull save. You can't use Evasion in medium or heavy armor or when helpless.
+
+<p/>
+>> *Danger Sense*
+>> ==Talent, Tier 1, Token: C==
+>> ==Prereq.: Roguishness==
+>>
+>> You gain Danger Sense.
+
+<p/>
+>>> *Rogues Edge*
+>>> ==Talent, Tier 2, Token: C==
+>>> ==Prereq.: Danger Sense==
+>>>
+>>> You gain Uncanny Dodge.
+>>> 
+>>> You gain one Skill Unlock.
+
+<p/>
+>>>> *Improved Rogues Edge*
+>>>> ==Talent, Tier 3, Token: C==
+>>>> ==Prereq.: Rogues Edge==
+>>>>
+>>>> You gain Improved Uncanny Dodge.
+>>>> 
+>>>> You gain one Skill Unlock.
+
+<p/>
+>>>>> *Extra Edge*
+>>>>> ==Talent, Tier 4, Token: C==
+>>>>> ==Prereq.: Improved Rogues Edge==
+>>>>>
+>>>>> You gain one Skill Unlock and one additional one at Tier 5.
+>>>>>
+>>>>> Gain a small Skill Bonus?
+
+<p/>
+>> *Improved Sneak Attack*
+>> ==Talent, Tier 1, Token: C==
+>> ==Prereq.: Roguishness, Cunning Level 4==
+>>
+>> You gain 1 Sneak Attack die.
+>>
+>> Additionally, everytime you take this talent you gain one Rogue Trick (Advanced on the fourth and fifth time).
+>>
+>> **Special:** This talent can be chosen multiple times. Every time the tier increaes by 1 and the required Cunning Level increases by 4.
+
+<p/>
+>> **Injuring Sneak Attack**
+>> ==Core, Tier 2, Token: C + C==
+>> ==Prereq.: Roguishness==
+>>
+>> You gain 1 Sneak Attack die. You can add a condition to a Sneak Attack for one round, additional applications do not stack the effect but extend the duration by one round. The effects are:
+- Bewildered
+- Disoriented
+- Hampered
+>>
+>> Gain one Rogue Trick.
+
+<p/>
+>>> **??? Sneak Attack**
+>>> ==Core, Tier 3, Token: C + C==
+>>> ==Prereq.: Injuring Sneak Attack==
+>>>
+>>> You gain 1 Sneak Attack die.
+>>>
+>>> ???
+>>>
+>>> Gain one Advanced Rogue Trick.
+
+<p/>
+>>>> **???! Sneak Attack**
+>>>> ==Core, Tier 4, Token: C + C==
+>>>> ==Prereq.: ??? Sneak Attack==
+>>>>
+>>>> You gain 1 Sneak Attack die.
+>>>>
+>>>> ???!
+>>>>
+>>>> Gain one Advanced Rogue Trick.
+
+<p/>
+>>>>> **Master Strike**
+>>>>> ==Core, Tier 5, Tokens: C + C==
+>>>>> ==Prereq.: ???! Sneak Attack==
+>>>>>
+>>>>> You gain 1 Sneak Attack die.
+>>>>>
+>>>>> Can apply a powerfull effect when making a Sneak Attack.
+>>>>>
+>>>>> Gain one Advanced Rogue Trick.
 
 ####Alchemist
 
@@ -311,9 +321,7 @@ The wizards cores are:
 >>>
 >>> You can regain some used spell slots per short rest. You regain your Arcane Bonus spell levels that can be split among multiple slots. The maximum slot level that can be regained is 6.
 >>>
->>> You can concentrate on spells as a Quick Action.
->>>
->>> Other cool stuff?
+>>> You can concentrate on spells as a Move Action.
 
 ####Bard
 
@@ -345,8 +353,6 @@ The clerics cores are:
 >
 > You have to prepare spells after a long rest to be able to cast them. You can prepare a number of cantrips equal to the spells know for level 0 spells. Additionally, you  can prepare a number of spells of any level equal to CHA + Caster Level.
 >
->Select Positive, Negative or Chaos. You count as having any Cure, Inflict or Shatter spell always prepared. Those don't count against your preparation limit. 
->
 > Select 1 Domain. You gain the level 1 power of this domain and the bonus spells known for any level you can cast. Your domain spells are always prepared and don't count against your preparation limit.
 >
 > You gain "Spell Level 1" as a free Talent.
@@ -356,22 +362,22 @@ The clerics cores are:
 >> ==Core, Tier 1, Tokens: D + D==
 >> ==Prereq.: Clerical Magic==
 >>
->> You gain 1 spell slot per day for each spell level up to your Arcane Bonus that can only be used to cast a domain spell.
+>> You gain 1 spell slot per day for each spell level up to your Divine Bonus that can only be used to cast a domain spell.
 >> 
->> You can also channel divine energy CHA times per day. This is activated as a Standard Action. You can heal or harm with your energy. The effects depend on your choice of positive, negative or chaos energy selected with Clerical Magic.
+>> You can also channel divine energy CHA times per day. You can heal or harm with your energy. The effects depend on your domain chosen with Divine Magic.
 >> 
->> Channel strength is 1 + Tier.
+>> Channel Energy is activated as a Standard Action and affects all valid targets within a 30ft burst. Channel strength is 1 + Tier.
 
 <p/>
->>> **Flowing Channel**
+>>> **Devoted Channel**
 >>> ==Core, Tier 2, Tokens: D + D==
->>> ==Prereq.: Divine Channel==
+>>> ==Prereq.: Divine Channel, Extra Domain==
 >>>
->>> You gain the channel divine energy effect of your first domain. Additionally you gain the channel energy effect of either your second domain or one associated energy effect (e.g. order, balance, freedom for positive) for your selected energy of Clerical Magic.
->>> 
->>> Add your Tier to the times per day you can use channel divine energy. 
->>> 
->>> You can regain some used spell slots per short rest. You regain your Divine Bonus spell levels that can be split among multiple slots. 
+>>> You gain the channel divine energy effect of your extra domain.
+>>>
+>>> Add your Tier to the times per day you can use channel divine energy.
+>>>
+>>> You can regain some used spell slots per short rest. You regain your Divine Bonus spell levels that can be split among multiple slots.
 
 <p/>
 >>> **Divine Power**
@@ -380,7 +386,7 @@ The clerics cores are:
 >>>
 >>> When using channel energy ou can sacrifice a spell slot as a Quick Action to change the channel effects from instantaneous to a lingering aura. This aura is centered stationary where you did the channelling.
 >>> 
->>> During your round the channel attempt resolves normally. For every 2 levels of the sacrificed slot the effects linger one additional round. At the end of each of your subsequent rounds during the linger duration the channel effects affect all targets in the area or having moved through the area. Targets that moved through but did not end their move in the area get a +4 bonus to their saving throw.
+>>> During your round the channel attempt resolves normally. For every 2 levels of the sacrificed slot the effects linger one additional round. At the start of each of your subsequent rounds during the linger duration the channel effects affect all targets in the area or having moved through the area. Targets that moved through but did not end their move in the area get a +4 bonus to their saving throw.
 >>> 
 >>> Additionally when casting a spell you can sacrifice some channel energy uses as a Quick Action. For every 2 uses sacrified you get a +1 bonus (maximum your Tier) to your Casting Bonus for that spell.
 
@@ -410,7 +416,7 @@ The clerics cores are:
 >> ==Talent, Tier 2, Token: D==
 >> ==Prereq.: Clerical Magic, Divine Level 8==
 >>
->> You gain the higher power of your first domain. 
+>> You gain the higher power of your first domain.
 
 <p/>
 >>> *Extra Domain Power*
@@ -423,6 +429,6 @@ The clerics cores are:
 
 ???
 
-####Oracle
+####Druid
 
 ???

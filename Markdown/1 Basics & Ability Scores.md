@@ -98,29 +98,40 @@ Reduced health discribes the serious injuries and damages a character has taken.
 Any normal damage is first taken from STM and then from HP. Special direct-HP damage is taken directly from HP.
 
     HP              = Racial HP + CON + STR + Tier
-    Wound Threshold = CON
+    Wound Threshold = 1 + CON
     STM             = CON + CHA + STM from Tokens
 
-When you take damage from any source (even by spending STM on a combat talent) and have mor HP damage than your HP threshold afterwards, make a STR saving throw against 5 + HP damage over your wound threshold. At partial effect you gain 1 HP damage. That doesn't trigger a new saving throw. At full effect you gain an exhaustion level in addition to that 1HP extra damage.
+For every increment of your Wound Threshold of HP damage you have, you gain +1 Exhaustion.
+If you have 0 or less HP you fall unconsious.
+If you have less than negative your Wound Threshold HP you die.
 
-Example: Fighterman has 20 maximum HP and a wound threshold of 4. He takes a hit that brings him to 10 HP. He must now make a STR save against 11 (5 + 6HP under 20-4HP). He rolls a 9 and therefore misses by 2. His STR save threshold is also 4 so he is partially affected and takes an additional 1HP damage.
+For example: You have 20HP and a Wound Threshold of 3. At 17HP (3HP damage) you gain +1 Exhaustion. At 9HP (11HP damage) you have +3 Exhaustion. And at -2 HP you are unconsious (but not dead yet).
+
+Every round you are unconsious with equal or more HP damage than HP you are dying and must make a STR save against 15. If you fail you loose 1HP. If you succeed partially nothing happens. If you succeed fully you stabilize.
+
+If you are stable you heal 1HP per hour until you have 1HP. If you take damage during that time you loose your stable status and are dying again.
 
 ####Exhaustion
 
 Exhaustion has several stages that get worse.
 
-1. -1 to all initiative, attack and damage rolls, all skill checks and caster bonus and cannot sprint
-2. penalties above also applies to DEFL and all ability defense thresholds (negative threshold means defense penalty), -1 maximum spell level and half speed
-3. penalties above raise to -2, -2 maximum spell level and can only take one Standard or Move action + Quick Action each round
-4. Unconsious
-5. Dead
+1. -1 to all d20 rolls (initiative, attack rolls, saves, skills), DEFL, Manauver Bonus and Caster Bonus, cannot sprint
+2. -1 to weapon damage and maximum known spell level
+3. -2 to all d20 rolls, DEFL, Manauver Bonus and Caster Bonus, half speed
+4. -2 to weapon damage and maximum known spell level
+5. -3 to all d20 rolls, DEFL, Manauver Bonus and Caster Bonus, staggered
+6. -3 to weapon damage and maximum known spell level
+7. -4 to all d20 rolls, DEFL, Manauver Bonus and Caster Bonus, confused
+8. -4 to weapon damage and maximum known spell level
+9. (and higher) additional -1 to all d20 rolls, DEFL, Manauver Bonus and Caster Bonus at odd level
+10. (and higher) additional -1 to weapon damage and known spell level at even level
 
-You gain 1 exhaustion level:
+You normally gain 1 exhaustion level:
 
 - for each fatigue level (max 2)
 - when at 0 STM
-- when having more HP damage than your HP threshold
-- when fully effected by a injury throw.
+- for each increment of you wound threshold that you have HP damage
+- 1 or more levels as a possible effect of diseases or poisons
 
 ###Skills
 
@@ -164,7 +175,7 @@ Hands wielding implements count as a free hand for the purposes of spellcasting.
 
 - Wand: +1 bonus to arcane spellcasting. (light handedness, like dagger)
 - Symbol: +1 to divine spellcasting. (light handedness, like knuckle)
-- Staff: +1 to all spellcasting and +1 to one school (heavy handedness, like quarterstaff)
+- Staff: +1 to arcane or divine spellcasting and +1 to one school (heavy handedness, like quarterstaff)
 - Conduct: +1 to manifestation (balanced handedness, like club)
 
 ####Armor and Shield Training
@@ -203,4 +214,4 @@ Inspirations can be used to add a little edge in form of an additional die to a 
 
 Normally an inspiration can be used on a skill check though some talents and special abilities can broaden the use. Per round only one inspiration die throw can be made.
 
-You normal inspiration die is 1d4. Some talents increase this die either generally or for specific uses. The increase follows the pattern 1d6, 1d8, 1d12, 2d8, 2d12, ...
+You normal inspiration die is 1d4. Some talents increase this die either generally or for specific uses. The increase follows the pattern 1d6, 1d8, 1d12, 1d20

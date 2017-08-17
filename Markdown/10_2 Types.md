@@ -9,10 +9,11 @@
 - Divine: Bonus for being bolstered by a divine force (sacred, profane, luck)
 - Enchantment: Bonus through having magical energies
 - Alchemical: Bonus by substances
+- Deflection: Bonus from a protective shell
 - Armor: Bonus from wearing armor or other protection
-- Shield: Bonus from having a shield or cover
+- Cover: Bonus from having a shield or cover
 - Circumstance: Bonus from being in the right situation
-- Natural: Bonus from an inherent ability
+- Inherent: Bonus from an inherent ability
 - Dodge: Bonus from moving quickly. Stacks with other dodge bonuses.
 - Insight: Bonus from knowing what will happen
 - Trait: Bonus from a trait
@@ -71,13 +72,16 @@ Some general subtypes are listed here.
 - Shock (Electricity)
 - Acid
 
-#####Other Energy Damage
+#####Esoteric Energy Damage
 
 - Radiant (Positive)
 - Consuming (Negative)
 - Entropic (Chaos)
+
+#####Other Damage
+
 - Psychic (affecting living mind directly)
-- Necrotic (affecting living body directly)
+- Poison (affecting living body directly)
 
 ####Special Forms of Damage
 
